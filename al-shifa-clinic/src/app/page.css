@@ -1,0 +1,27 @@
+.appointment-Image{
+    padding: auto;
+    width: 1600px;
+    height: 550px;
+  }
+
+  .clinicApointment{
+    color: rgb(247, 248, 250);
+    position: absolute;
+    top: 300px;
+    left: 10pc;
+  }
+  .clinicDes{
+    color: rgb(247, 248, 250);
+    position: absolute;
+    top: 380px;
+    left: 10pc;
+  }
+  .finalAppointment{
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 60pc;
+  }

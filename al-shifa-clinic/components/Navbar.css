@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: rgb(247, 244, 250);
+    color: rgb(114, 100, 194);
+    height: 150px;
+}
+.headings{
+     display: flex;
+    justify-content: center;
+}
+.logo
+{
+    height: 40px;
+    width: 40px;
+}
+.heading2{
+display: flex;
+justify-content: center;
+color: rgb(87, 158, 87);
+}
+.heading3{
+display: flex;
+justify-content: center;
+    color:black;
+}
+.menuOfsite{
+    color: rgb(105, 121, 214);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 45px;
+}
+.homeMenu{
+    color: rgb(158, 245, 158);
+}
+/* .nav navbar-nav{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+} */
