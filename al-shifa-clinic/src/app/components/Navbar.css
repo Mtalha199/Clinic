@@ -2,10 +2,14 @@
     padding: 0;
     margin: 0;
 }
-.main{
-    background-color: rgb(247, 244, 250);
+body{
+   background-color:#041e2e !important ;
+   color:white !important; 
+}
+.mainNavbar{
     color: rgb(114, 100, 194);
-    height: 150px;
+    margin: 0;
+    padding-right: 0;
 }
 .headings{
      display: flex;
@@ -24,7 +28,7 @@ color: rgb(87, 158, 87);
 .heading3{
 display: flex;
 justify-content: center;
-    color:black;
+    color:white;
 }
 .menuOfsite{
     color: rgb(105, 121, 214);
@@ -33,11 +37,12 @@ justify-content: center;
     justify-content: flex-end;
     margin-right: 45px;
 }
-.homeMenu{
-    color: rgb(158, 245, 158);
-}
-/* .nav navbar-nav{
+.menubar{
     display: flex;
     justify-content: center;
-    color: aqua;
-} */
+}
+.olTag{
+    text-decoration: none;
+    /* border: 5px solid red; */
+    color: white;
+}

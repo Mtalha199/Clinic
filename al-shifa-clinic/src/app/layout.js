@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar"
+import Navbar from "./components/Navbar"
 import "bootstrap/dist/css/bootstrap.css"
 export const metadata = {
   title: 'Create Next App',
