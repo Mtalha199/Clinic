@@ -30,19 +30,46 @@ display: flex;
 justify-content: center;
     color:white;
 }
-.menuOfsite{
-    color: rgb(105, 121, 214);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 45px;
+.humburgerButton{
+    position: absolute;
+    left: 95pc;
+    top: 37px;
+    background-color: transparent;
+    border: none
 }
-.menubar{
-    display: flex;
-    justify-content: center;
+.rightNav{
+    position: fixed;
+    top: 70px;
+    right: -2px;
+    width: 314px;
+    height: 100%;
+    transition: right 0.3s;
+    background-color:#031724 !important ;
+    border-radius: 5px;
+
+
 }
-.olTag{
-    text-decoration: none;
-    /* border: 5px solid red; */
-    color: white;
+.rightNav li {
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+
+/* @media screen and (max-width:1005px) {
+    .menuItems{
+        display: none;
+    }
+    
+} */
+
+
+@media screen and (max-width:510px) {
+    .heading2{
+        display: none;
+    }
+    .heading3{
+        display: none;
+    }
+    
 }

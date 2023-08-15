@@ -1,17 +1,23 @@
-import appointmentImage from "../../Images/Dr.jpg"
+// import appointmentImage from "../../Images/Dr.jpg"
 // import Head from "next/head";
-import callIcon from "../../Images/call.png"
-import Image from "next/image";
-import "../app/page.css"
+// import callIcon from "../../Images/call.png"
+// import Image from "next/image";
+// import "../app/page.css"
+// import styles from "../app/styles/home.module.css"
+// import React, { useState } from 'react'
 
 export default function Home() {
-  return (
+  
 
-    <>
 
+return (
+  <>
+
+  <p>hello</p>
+  </>
+)
 
     
-    </>
     // <div className="container">
         /* <Image src={appointmentImage}  /> */
   /* <Image src={appointmentImage} className="appointment-Image"/> */
@@ -44,5 +50,5 @@ export default function Home() {
     // </div>
   
 
-  )
+  
 }
